@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Page Title -->
+    <title>Quiz App | Vanilla JS</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="quiz">
+            <div class="quiz-header">
+                <h1 class="quiz-header__title">Simple Quiz</h1>
+                <hr class="quiz-header__separator">   
+            </div>
+            <div class="quiz-body" id="quiz-body">
+                <h2 class="quiz-body__title" id="question">1. Which is the largest animal in the world?</h2>
+                <ul class="quiz-body__list-items" id="answer-list">
+                    <li class="quiz-body__item" id="answer1">Shark</li>
+                    <li class="quiz-body__item" id="answer2">Blue whale</li>
+                    <li class="quiz-body__item" id="answer3">Elephant</li>
+                    <li class="quiz-body__item" id="answer4">Girafe</li>
+                </ul>
+            </div>
+            <div class="quiz-footer">
+                <button onclick="nextPage()" class="quiz-button" id="submit-button">Next</button>
+            </div>
+        </div>
+    </div>
+    
+    <script  src="js/script.js"></script>
+</body>
+</html>
